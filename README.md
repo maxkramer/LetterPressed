@@ -23,6 +23,6 @@ At the moment, all matching words are filtered by their length in descending ord
 
 ##Fin
 
-That's a wrap. Any issues, please open an Issue on this page. Other than that, feel free to drop me a tweet [@_max_k](http://u.maxk.me/1syZ) or an email [hello[at]maxkramer.co](mailto://hello@maxkramer.co)
+That's a wrap. Any issues, please open an Issue on this page. Other than that, feel free to drop me a tweet [@_max_k](http://u.maxk.me/1syZ) or an email [hello[at]maxkramer.co](mailto:hello@maxkramer.co)
 
 Enjoy!
