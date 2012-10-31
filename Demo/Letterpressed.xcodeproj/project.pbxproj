@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F5CE3C163E199A0057FAAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5CE3B163E199A0057FAAA /* UIKit.framework */; };
+		50F5CE3E163E199A0057FAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5CE3D163E199A0057FAAA /* Foundation.framework */; };
+		50F5CE40163E199A0057FAAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5CE3F163E199A0057FAAA /* CoreGraphics.framework */; };
+		50F5CE46163E199A0057FAAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE44163E199A0057FAAA /* InfoPlist.strings */; };
+		50F5CE48163E199A0057FAAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F5CE47163E199A0057FAAA /* main.m */; };
+		50F5CE4C163E199A0057FAAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F5CE4B163E199A0057FAAA /* AppDelegate.m */; };
+		50F5CE4E163E199A0057FAAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE4D163E199A0057FAAA /* Default.png */; };
+		50F5CE50163E199A0057FAAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE4F163E199A0057FAAA /* Default@2x.png */; };
+		50F5CE52163E199A0057FAAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE51163E199A0057FAAA /* Default-568h@2x.png */; };
+		50F5CE55163E199A0057FAAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F5CE54163E199A0057FAAA /* ViewController.m */; };
+		50F5CE58163E199A0057FAAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE56163E199A0057FAAA /* ViewController.xib */; };
+		50F5CE5F163E1B4F0057FAAA /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50F5CE5E163E1B4F0057FAAA /* words.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50F5CE37163E199A0057FAAA /* Letterpressed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letterpressed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F5CE3B163E199A0057FAAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50F5CE3D163E199A0057FAAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50F5CE3F163E199A0057FAAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50F5CE43163E199A0057FAAA /* Letterpressed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Letterpressed-Info.plist"; sourceTree = "<group>"; };
+		50F5CE45163E199A0057FAAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F5CE47163E199A0057FAAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F5CE49163E199A0057FAAA /* Letterpressed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Letterpressed-Prefix.pch"; sourceTree = "<group>"; };
+		50F5CE4A163E199A0057FAAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F5CE4B163E199A0057FAAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F5CE4D163E199A0057FAAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50F5CE4F163E199A0057FAAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50F5CE51163E199A0057FAAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50F5CE53163E199A0057FAAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F5CE54163E199A0057FAAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50F5CE57163E199A0057FAAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		50F5CE5E163E1B4F0057FAAA /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F5CE34163E199A0057FAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F5CE3C163E199A0057FAAA /* UIKit.framework in Frameworks */,
+				50F5CE3E163E199A0057FAAA /* Foundation.framework in Frameworks */,
+				50F5CE40163E199A0057FAAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F5CE2C163E199A0057FAAA = {
+			isa = PBXGroup;
+			children = (
+				50F5CE41163E199A0057FAAA /* Letterpressed */,
+				50F5CE3A163E199A0057FAAA /* Frameworks */,
+				50F5CE38163E199A0057FAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F5CE38163E199A0057FAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F5CE37163E199A0057FAAA /* Letterpressed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F5CE3A163E199A0057FAAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F5CE3B163E199A0057FAAA /* UIKit.framework */,
+				50F5CE3D163E199A0057FAAA /* Foundation.framework */,
+				50F5CE3F163E199A0057FAAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F5CE41163E199A0057FAAA /* Letterpressed */ = {
+			isa = PBXGroup;
+			children = (
+				50F5CE4A163E199A0057FAAA /* AppDelegate.h */,
+				50F5CE4B163E199A0057FAAA /* AppDelegate.m */,
+				50F5CE53163E199A0057FAAA /* ViewController.h */,
+				50F5CE54163E199A0057FAAA /* ViewController.m */,
+				50F5CE56163E199A0057FAAA /* ViewController.xib */,
+				50F5CE5E163E1B4F0057FAAA /* words.txt */,
+				50F5CE42163E199A0057FAAA /* Supporting Files */,
+			);
+			path = Letterpressed;
+			sourceTree = "<group>";
+		};
+		50F5CE42163E199A0057FAAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F5CE43163E199A0057FAAA /* Letterpressed-Info.plist */,
+				50F5CE44163E199A0057FAAA /* InfoPlist.strings */,
+				50F5CE47163E199A0057FAAA /* main.m */,
+				50F5CE49163E199A0057FAAA /* Letterpressed-Prefix.pch */,
+				50F5CE4D163E199A0057FAAA /* Default.png */,
+				50F5CE4F163E199A0057FAAA /* Default@2x.png */,
+				50F5CE51163E199A0057FAAA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F5CE36163E199A0057FAAA /* Letterpressed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F5CE5B163E199A0057FAAA /* Build configuration list for PBXNativeTarget "Letterpressed" */;
+			buildPhases = (
+				50F5CE33163E199A0057FAAA /* Sources */,
+				50F5CE34163E199A0057FAAA /* Frameworks */,
+				50F5CE35163E199A0057FAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Letterpressed;
+			productName = Letterpressed;
+			productReference = 50F5CE37163E199A0057FAAA /* Letterpressed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F5CE2E163E199A0057FAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Max Kramer";
+			};
+			buildConfigurationList = 50F5CE31163E199A0057FAAA /* Build configuration list for PBXProject "Letterpressed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50F5CE2C163E199A0057FAAA;
+			productRefGroup = 50F5CE38163E199A0057FAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F5CE36163E199A0057FAAA /* Letterpressed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F5CE35163E199A0057FAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F5CE46163E199A0057FAAA /* InfoPlist.strings in Resources */,
+				50F5CE4E163E199A0057FAAA /* Default.png in Resources */,
+				50F5CE50163E199A0057FAAA /* Default@2x.png in Resources */,
+				50F5CE52163E199A0057FAAA /* Default-568h@2x.png in Resources */,
+				50F5CE58163E199A0057FAAA /* ViewController.xib in Resources */,
+				50F5CE5F163E1B4F0057FAAA /* words.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F5CE33163E199A0057FAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F5CE48163E199A0057FAAA /* main.m in Sources */,
+				50F5CE4C163E199A0057FAAA /* AppDelegate.m in Sources */,
+				50F5CE55163E199A0057FAAA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50F5CE44163E199A0057FAAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F5CE45163E199A0057FAAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F5CE56163E199A0057FAAA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F5CE57163E199A0057FAAA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F5CE59163E199A0057FAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F5CE5A163E199A0057FAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F5CE5C163E199A0057FAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letterpressed/Letterpressed-Prefix.pch";
+				INFOPLIST_FILE = "Letterpressed/Letterpressed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50F5CE5D163E199A0057FAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letterpressed/Letterpressed-Prefix.pch";
+				INFOPLIST_FILE = "Letterpressed/Letterpressed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F5CE31163E199A0057FAAA /* Build configuration list for PBXProject "Letterpressed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F5CE59163E199A0057FAAA /* Debug */,
+				50F5CE5A163E199A0057FAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F5CE5B163E199A0057FAAA /* Build configuration list for PBXNativeTarget "Letterpressed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F5CE5C163E199A0057FAAA /* Debug */,
+				50F5CE5D163E199A0057FAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F5CE2E163E199A0057FAAA /* Project object */;
+}
